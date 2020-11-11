@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="C1.cpp" />
     <ClCompile Include="C2.cpp" />
+    <ClCompile Include="C3.cpp" />
     <ClCompile Include="gpcs1.cpp" />
     <ClCompile Include="gpcs2.cpp" />
     <ClCompile Include="Partie1-4.cpp" />

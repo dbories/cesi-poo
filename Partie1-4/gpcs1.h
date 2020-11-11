@@ -1,7 +1,8 @@
+#pragma once
 #include "C1.h"
 #include "C2.h"
 #include "C3.h"
-class gpcs1_
+class gpcs1
 {
 private:
     C1 o1;

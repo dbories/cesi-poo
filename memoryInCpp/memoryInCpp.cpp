@@ -31,6 +31,22 @@ int main()
 
     maBoite.ranger();
 
+
+    // Les tableaux sont des pointeurs
+    Boite* tab = new Boite[3];
+    
+
+    tab[0].couleur = "jaune";
+    tab[1].couleur = "bleu";
+    tab[2].couleur = "vert";
+    tab->couleur = "rouge";
+
+    tab[0].ranger();
+    tab[1].ranger();
+    tab[2].ranger();
+
+    (*(tab + 4)).ranger();
+
 }
 
 void montrerMaBoite() 

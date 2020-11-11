@@ -1,3 +1,5 @@
+#pragma once
+
 class C2
 {
 public:
