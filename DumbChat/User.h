@@ -8,7 +8,7 @@ class User
 {
 public: 
 	string name;
-	User amis[];
+	User amis[]; // Ca ne compile pas, A vous de voir pourquoi :)
 	
 };
 
